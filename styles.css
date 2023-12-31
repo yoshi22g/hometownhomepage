@@ -1,0 +1,155 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+/**Fonts**/
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Inter&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,600;1,6..72,300;1,6..72,400;1,6..72,600&display=swap');
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Newsreader', 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 100px;
+}
+
+.hero {
+    background: linear-gradient(90deg, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.45) 100%), url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fb386363e680359b5cc19-97ec1140354919029c7985d2568f0e82.ssl.cf1.rackcdn.com%2Fassets%2Fuploads%2Farea_profile%2Fbanner_image%2F16464%2Foptimized_86e4a0d7229a169f20607b1198a870e9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 343px;
+    padding-top: 119px;
+}
+
+.hero h1 {
+    height: 42px;
+    color: white;
+    background-color: #1D3557;
+    width: 380px;
+    font-size: 32px;
+    padding: 8px 12px 5px 12px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Alata', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.hero h2 {
+    color: #ffffff;
+    //background-color: #457B9D;
+    font-size: 28.72px;
+    line-height: 32px;
+    padding: 5px 28px 5px 28px;
+    width: 512px;
+    margin: 11px auto;
+    border-radius: 10px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.activities {
+    height: 378px;
+    background-color: #ddf6ff;
+    padding-top: 39px;
+}
+
+.activities h3 {
+    font-size: 30px;
+    margin-top: 0;
+    color: #1D3557;
+    font-family: 'Alata';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.activities-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 34px;
+    column-gap: 33px;
+    align-content: flex-start;
+}
+
+.activity {
+    width: 228px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 18.4px;
+}
+
+.activities-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.activities-title {
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 300;
+    //letter-spacing: 1.8px;
+    border-bottom: 1px solid #1D3557;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+.activities-description {
+    font-family: 'Inter','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1D3557;
+    line-height: 1.4;
+    font-size: 14px;
+}
+
+.guide {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.guide-card {
+    width: 400px;
+    height: 294px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #A8DADC;
+    border-radius: 10px;
+    box-shadow: 0 6px 0 0 #1D3557;
+    padding: 0 13px;
+    justify-content: space-between;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.guide-card img {
+    width: 180px;
+    border-radius: 20px;
+}
+
+.guide-card-text {
+    color: #1D3557
+}
+
+.guide-card-text h3 {
+    font-size: 24px;
+    font-family: 'Alata','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+
+.guide-card-text p {
+    font-style: italic;
+}
+
+.guide-card-text h4 {
+    font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
